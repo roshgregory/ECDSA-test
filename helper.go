@@ -24,7 +24,7 @@ func Setup() *curves.Curve {
 		log.Fatalf("[-] Error Writing")
 	}
 
-	fmt.Println("[+] Elgamal Setup Completed")
+	// fmt.Println("[+] Elgamal Setup Completed")
 	return curve
 }
 
@@ -57,6 +57,6 @@ func KeyGen() (curves.Scalar, curves.Point) { //Generates <Key_pri,KeyPub> Pair
 		log.Fatalf("[-] Error Writing")
 	}
 
-	fmt.Println("[+] KeyGen Completed")
+	// fmt.Println("[+] KeyGen Completed")
 	return private, public
 }
